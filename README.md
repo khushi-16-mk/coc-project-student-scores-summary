@@ -19,14 +19,14 @@ Percentage calculation
 
 #include <stdio.h>
 #include <stdlib.h>
-
 /* Function to calculate the average (mean) of the scores */
+
 double mean(const int *arr, int size) {
     long long sum = 0;
     for (int i = 0; i < size; i++) {
         sum += arr[i];
     }
-    return sum / (double)size;  // Convert to double for accurate decimal average
+    return sum / (double)size;  
 }
 
 /* Function to find the highest score */
