@@ -93,3 +93,7 @@ int main(void) {
 
     return 0;
 }
+for compilation;
+gcc main.c -coc-project-students scores summary
+to run;
+./coc-project-students scores summary
